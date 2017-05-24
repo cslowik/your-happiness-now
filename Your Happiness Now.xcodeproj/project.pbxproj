@@ -12,9 +12,12 @@
 		839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F11ED5470D00B46DE0 /* Main.storyboard */; };
 		839A74F51ED5470D00B46DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F41ED5470D00B46DE0 /* Assets.xcassets */; };
 		839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F61ED5470D00B46DE0 /* LaunchScreen.storyboard */; };
+		CE8C09FFEF3B0DA5F4BA3AEE /* Pods_Your_Happiness_Now.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88EAA77B278B4AA9AE3AB44 /* Pods_Your_Happiness_Now.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2968932C0B7C15924D4DE28D /* Pods-Your Happiness Now.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Happiness Now.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now.debug.xcconfig"; sourceTree = "<group>"; };
+		65997841F2E3B84ACBC6F8ED /* Pods-Your Happiness Now.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Happiness Now.release.xcconfig"; path = "Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now.release.xcconfig"; sourceTree = "<group>"; };
 		839A74EA1ED5470D00B46DE0 /* Your Happiness Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Happiness Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839A74EF1ED5470D00B46DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		839A74F41ED5470D00B46DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839A74F71ED5470D00B46DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839A74F91ED5470D00B46DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88EAA77B278B4AA9AE3AB44 /* Pods_Your_Happiness_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Your_Happiness_Now.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8C09FFEF3B0DA5F4BA3AEE /* Pods_Your_Happiness_Now.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				839A74EC1ED5470D00B46DE0 /* Your Happiness Now */,
 				839A74EB1ED5470D00B46DE0 /* Products */,
+				A7A8E72CD8FC3C820CD20F3B /* Pods */,
+				FA5F8608A5C556B62AC3BCDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = "Your Happiness Now";
 			sourceTree = "<group>";
 		};
+		A7A8E72CD8FC3C820CD20F3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2968932C0B7C15924D4DE28D /* Pods-Your Happiness Now.debug.xcconfig */,
+				65997841F2E3B84ACBC6F8ED /* Pods-Your Happiness Now.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA5F8608A5C556B62AC3BCDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D88EAA77B278B4AA9AE3AB44 /* Pods_Your_Happiness_Now.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 839A74FC1ED5470D00B46DE0 /* Build configuration list for PBXNativeTarget "Your Happiness Now" */;
 			buildPhases = (
+				B0E07FE7974AA9CFD9964AEF /* [CP] Check Pods Manifest.lock */,
 				839A74E61ED5470D00B46DE0 /* Sources */,
 				839A74E71ED5470D00B46DE0 /* Frameworks */,
 				839A74E81ED5470D00B46DE0 /* Resources */,
+				24B00AEFE759320237815F2A /* [CP] Embed Pods Frameworks */,
+				738E335335C4D38A497994E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24B00AEFE759320237815F2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738E335335C4D38A497994E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E07FE7974AA9CFD9964AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		839A74E61ED5470D00B46DE0 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		839A74FD1ED5470D00B46DE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2968932C0B7C15924D4DE28D /* Pods-Your Happiness Now.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 75NPGEFXH4;
@@ -273,6 +349,7 @@
 		};
 		839A74FE1ED5470D00B46DE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65997841F2E3B84ACBC6F8ED /* Pods-Your Happiness Now.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 75NPGEFXH4;
