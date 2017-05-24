@@ -25,7 +25,7 @@ class FileHelper {
         return chapterVCArray
     }
     
-    private func buildChapter(_ chapter: [String:String], withIndex index: Int) -> ChapterVC {
+    private func buildChapter(_ chapter: String, withIndex index: Int) -> ChapterVC {
         
         let newVC = ChapterVC(index: index)
         return newVC

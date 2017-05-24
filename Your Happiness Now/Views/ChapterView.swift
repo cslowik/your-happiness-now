@@ -13,7 +13,7 @@ enum ListStyle {
 }
 
 protocol ChapterViewDelegate {
-    func watchVideo()
+    func watchVideo(atURL videoURL: String)
 }
 
 class ChapterView: UIScrollView {
@@ -24,11 +24,9 @@ class ChapterView: UIScrollView {
     let screenWidth = UIScreen.main.bounds.width
     let cellHeight: CGFloat = 56.0
     var cellWidth: CGFloat = 0
-    var videoURL: String?
 
     init(frame: CGRect, chapter: Int) {
         super.init(frame: frame)
-        videoURL = FileHelper.main.chapters[chapter]["video"]
         cellWidth = (screenWidth - (edgeMargin * 2)) / 2
         layoutChapter(chapter)
         showsVerticalScrollIndicator = false
@@ -126,7 +124,7 @@ class ChapterView: UIScrollView {
             make.centerX.equalToSuperview()
         }
     }
-    
+    /*
     func addMovieButton(after: UIView) -> UIView {
         let buttonView = UIView()
         let movieButton = UIButton(frame: CGRect(x: 0, y: 0, width: screenWidth - (edgeMargin * 2), height: 64))
@@ -146,6 +144,7 @@ class ChapterView: UIScrollView {
         movieButton.addTarget(self, action: #selector(watchVideo), for: .touchUpInside)
         return buttonView
     }
+    */
     
     func addHeading(after: UIView, level: Int, withText hText: String) -> UIView {
         var headingStyle: Style
@@ -419,7 +418,9 @@ class ChapterView: UIScrollView {
         return tableView
     }
     
-    func watchVideo() {
+    /*
+    func watchVideo(at) {
         chapterDelegate.watchVideo()
     }
+    */
 }
