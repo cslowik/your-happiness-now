@@ -41,7 +41,7 @@
         <!--MenuVC-->
         <scene sceneID="6uK-Ha-dwx">
             <objects>
-                <viewController id="4pp-4q-N9w" customClass="MenuVC" customModule="LeadershipKeys" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4pp-4q-N9w" customClass="MenuVC" customModule="Your_Happiness_Now" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h9o-oE-4sF"/>
                         <viewControllerLayoutGuide type="bottom" id="UjY-R6-QZl"/>
@@ -54,7 +54,7 @@
                                 <rect key="frame" x="0.0" y="173" width="375" height="320"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="24" reuseIdentifier="menuCell" rowHeight="64" id="g2M-oc-7kG" customClass="MenuTableViewCell" customModule="LeadershipKeys" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="24" reuseIdentifier="menuCell" rowHeight="64" id="g2M-oc-7kG" customClass="MenuTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g2M-oc-7kG" id="L7Z-R3-qXJ">
@@ -98,7 +98,7 @@
         <!--ArticleVC-->
         <scene sceneID="jeB-FM-cdl">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Fqs-VG-osc" customClass="ArticleVC" customModule="LeadershipKeys" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Fqs-VG-osc" customClass="ArticleVC" customModule="Your_Happiness_Now" customModuleProvider="target" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="CPi-ce-x5d">
                         <barButtonItem key="leftBarButtonItem" image="menuIcon" id="jzk-CS-RLs">
@@ -141,30 +141,30 @@
         <!--ContentsVC-->
         <scene sceneID="n9L-x3-mED">
             <objects>
-                <tableViewController id="Nph-N2-Msc" customClass="ContentsVC" customModule="LeadershipKeys" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Nph-N2-Msc" customClass="ContentsVC" customModule="Your_Happiness_Now" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ige-wi-Hfc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tocCell" rowHeight="88" id="Ewq-bR-ter" customClass="ContentsTableViewCell" customModule="LeadershipKeys" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tocCell" rowHeight="88" id="Ewq-bR-ter" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ewq-bR-ter" id="FOk-I4-DHV" customClass="ContentsTableViewCell" customModule="LeadershipKeys" customModuleProvider="target">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ewq-bR-ter" id="FOk-I4-DHV" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gx0-jg-Lj6">
-                                            <rect key="frame" x="24" y="19" width="343" height="25"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter Index" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8m-eI-ibX">
+                                            <rect key="frame" x="24" y="19" width="343" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="18"/>
+                                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter Index" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8m-eI-ibX">
-                                            <rect key="frame" x="24" y="48" width="343" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gx0-jg-Lj6">
+                                            <rect key="frame" x="24" y="45" width="113" height="25"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                            <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -192,7 +192,7 @@
         <!--Scrolling Nav-->
         <scene sceneID="Heq-xW-6ar">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3W6-5A-KLF" customClass="ScrollingNav" customModule="LeadershipKeys" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3W6-5A-KLF" customClass="ScrollingNav" customModule="Your_Happiness_Now" customModuleProvider="target" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
