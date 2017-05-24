@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		836CD3861ED5CEA100CC436B /* UITextView-Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3851ED5CEA100CC436B /* UITextView-Configuration.swift */; };
+		836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */; };
+		836CD38A1ED5CEF100CC436B /* UIColor-Swatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */; };
+		836CD38C1ED5CF0C00CC436B /* NSObject-callSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD38B1ED5CF0C00CC436B /* NSObject-callSelector.swift */; };
 		839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */; };
 		839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74EF1ED5470D00B46DE0 /* ViewController.swift */; };
 		839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F11ED5470D00B46DE0 /* Main.storyboard */; };
@@ -18,6 +22,10 @@
 /* Begin PBXFileReference section */
 		2968932C0B7C15924D4DE28D /* Pods-Your Happiness Now.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Happiness Now.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now.debug.xcconfig"; sourceTree = "<group>"; };
 		65997841F2E3B84ACBC6F8ED /* Pods-Your Happiness Now.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Happiness Now.release.xcconfig"; path = "Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now.release.xcconfig"; sourceTree = "<group>"; };
+		836CD3851ED5CEA100CC436B /* UITextView-Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextView-Configuration.swift"; path = "Your Happiness Now/Extensions/UITextView-Configuration.swift"; sourceTree = "<group>"; };
+		836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont-TextStyles.swift"; path = "Your Happiness Now/Extensions/UIFont-TextStyles.swift"; sourceTree = "<group>"; };
+		836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Swatches.swift"; path = "Your Happiness Now/Extensions/UIColor-Swatches.swift"; sourceTree = "<group>"; };
+		836CD38B1ED5CF0C00CC436B /* NSObject-callSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject-callSelector.swift"; path = "Your Happiness Now/Extensions/NSObject-callSelector.swift"; sourceTree = "<group>"; };
 		839A74EA1ED5470D00B46DE0 /* Your Happiness Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Happiness Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839A74EF1ED5470D00B46DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,9 +48,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		836CD3841ED5CE7A00CC436B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				836CD3851ED5CEA100CC436B /* UITextView-Configuration.swift */,
+				836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */,
+				836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */,
+				836CD38B1ED5CF0C00CC436B /* NSObject-callSelector.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		839A74E11ED5470D00B46DE0 = {
 			isa = PBXGroup;
 			children = (
+				836CD3841ED5CE7A00CC436B /* Extensions */,
 				839A74EC1ED5470D00B46DE0 /* Your Happiness Now */,
 				839A74EB1ED5470D00B46DE0 /* Products */,
 				A7A8E72CD8FC3C820CD20F3B /* Pods */,
@@ -212,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836CD3861ED5CEA100CC436B /* UITextView-Configuration.swift in Sources */,
+				836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */,
 				839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */,
 				839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */,
+				836CD38C1ED5CF0C00CC436B /* NSObject-callSelector.swift in Sources */,
+				836CD38A1ED5CEF100CC436B /* UIColor-Swatches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +405,7 @@
 				839A74FE1ED5470D00B46DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
