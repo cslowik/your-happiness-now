@@ -32,7 +32,6 @@
 		839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F11ED5470D00B46DE0 /* Main.storyboard */; };
 		839A74F51ED5470D00B46DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F41ED5470D00B46DE0 /* Assets.xcassets */; };
 		839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F61ED5470D00B46DE0 /* LaunchScreen.storyboard */; };
-		83DEA5B01ED5EA2C006B6220 /* Contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA5AF1ED5EA2C006B6220 /* Contents.plist */; };
 		CE8C09FFEF3B0DA5F4BA3AEE /* Pods_Your_Happiness_Now.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88EAA77B278B4AA9AE3AB44 /* Pods_Your_Happiness_Now.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +65,6 @@
 		839A74F41ED5470D00B46DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839A74F71ED5470D00B46DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839A74F91ED5470D00B46DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83DEA5AF1ED5EA2C006B6220 /* Contents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Contents.plist; sourceTree = "<group>"; };
 		D88EAA77B278B4AA9AE3AB44 /* Pods_Your_Happiness_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Your_Happiness_Now.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -169,7 +167,6 @@
 				839A74F11ED5470D00B46DE0 /* Main.storyboard */,
 				839A74F41ED5470D00B46DE0 /* Assets.xcassets */,
 				839A74F61ED5470D00B46DE0 /* LaunchScreen.storyboard */,
-				83DEA5AF1ED5EA2C006B6220 /* Contents.plist */,
 				839A74F91ED5470D00B46DE0 /* Info.plist */,
 			);
 			path = "Your Happiness Now";
@@ -261,7 +258,6 @@
 				836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */,
 				836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */,
 				836CD3B01ED5CFE400CC436B /* OpenSans-Italic.ttf in Resources */,
-				83DEA5B01ED5EA2C006B6220 /* Contents.plist in Resources */,
 				836CD3AF1ED5CFE400CC436B /* Montserrat-Regular.ttf in Resources */,
 				839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */,
 			);

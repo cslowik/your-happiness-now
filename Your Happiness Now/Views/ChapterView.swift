@@ -107,7 +107,89 @@ class ChapterView: UIScrollView {
                                          "Vacations"],
                              listStyle: .bullet)
             
-            let p10 = addParagraph(after: l2, withText: "Too often we put our faith in the goal of “buying or acquiring” something that we think will bring us greater happiness, when in fact it may actually make us less happy when the “bill” comes or we over-reach and have to scale back somewhere else to make ends meet. “Happiness Traps” can be resolved by “naming them to tame them”. Once we can identify these traps we can become more aware of how they can hinder or help our overall level of happiness and ultimately our life satisfaction. By taking a moment to list the Happiness Traps you fall into – the more aware you will become.\n\nNow you can learn how to watch out for them and make an effort to avoid them or get back on track if they derail you. No surprise, life happens and we are all human. There is no magic trick or one answer that makes us all happy. That’s the beauty of this app. You can learn to understand more about yourself, what makes you a happy person and then take small steps over time to increase your happiness until you feel you have mastered your ability to maintain your level of happiness. Now read that again... YOUR LEVEL OF HAPPINESS... not anyone else’s. Remember, this is an app for YOUR HAPPINESS NOW. You can share it and pass it along (and I hope you do) but it’s always about YOU. Only you can be responsible for your own HAPPINESS. Now, let’s get started by becoming aware, understanding, and improving your happiness now.\n\nFor more advanced exercises go to the TOOLS menu. Review the TOOLS that are right for your needs at WORK or AT HOME, including Making It To The Top, HAPPINESS TRAPS and TIPS.")
+            _ = addParagraph(after: l2, withText: "Too often we put our faith in the goal of “buying or acquiring” something that we think will bring us greater happiness, when in fact it may actually make us less happy when the “bill” comes or we over-reach and have to scale back somewhere else to make ends meet. “Happiness Traps” can be resolved by “naming them to tame them”. Once we can identify these traps we can become more aware of how they can hinder or help our overall level of happiness and ultimately our life satisfaction. By taking a moment to list the Happiness Traps you fall into – the more aware you will become.\n\nNow you can learn how to watch out for them and make an effort to avoid them or get back on track if they derail you. No surprise, life happens and we are all human. There is no magic trick or one answer that makes us all happy. That’s the beauty of this app. You can learn to understand more about yourself, what makes you a happy person and then take small steps over time to increase your happiness until you feel you have mastered your ability to maintain your level of happiness. Now read that again... YOUR LEVEL OF HAPPINESS... not anyone else’s. Remember, this is an app for YOUR HAPPINESS NOW. You can share it and pass it along (and I hope you do) but it’s always about YOU. Only you can be responsible for your own HAPPINESS. Now, let’s get started by becoming aware, understanding, and improving your happiness now.\n\nFor more advanced exercises go to the TOOLS menu. Review the TOOLS that are right for your needs at WORK or AT HOME, including Making It To The Top, HAPPINESS TRAPS and TIPS.")
+            break
+        case 1:
+            //MARK:- Chapter 1
+            let t1 = "What Happy Companies Know"
+            titleLabel.text = t1
+            addTitle(titleLabel)
+            
+            let p1 = addParagraph(after: titleLabel, withText: "Happiness = Profits.\n\nHere's a simple fact that has been proven again and again. An investment in people practices to improve their talent results in higher satisfaction on the job and happier, higher performing employees. Happier employees can improve performance across the board. Here are some remarkable statistics to think about.")
+            
+            let l1 = addList(after: p1,
+                             withItems: ["Good people practices can triple shareholder value over five years: 21-64%.",
+                                         "Firms with great people can outperform comparable offices by 52-300%.",
+                                         "High people loyalty can create returns of 30-50%.",
+                                         "Companies with a clearly articulated reward strategy have 13% lower turnover."],
+                             listStyle: .bullet)
+            //TODO: video
+            
+            let p2 = addParagraph(after: l1, withText: "Happy and successful companies leave clues about how they do it. So the study of these companies is worthy of your effort. Our highly acclaimed book What Happy Companies Know (with Dan Baker and Collins Hemingway) will walk you through the clues and show you exactly how they do it. You can find that book and my other award winning books on Books menu.")
+            
+            //TODO: video
+            
+            let p3 = addParagraph(after: p2, withText: "The Principles that Happy Companies leverage to create Happy Employees can be easily remembered by using the acronym HAPIE. Each letter is one key to a practice that can lead to increases in overall Happiness, which we know can lead to increases in profits. These principles are practical, easy to follow and can lead to greater success on all fronts. Start by applying one principle a week.")
+            
+            let l2 = addList(after: p3, withItems: ["<b>H</b>eartfelt Leadership", "<b>A</b>daptive Products and Services", "<b>P</b>rofit With People (ROP = Return on <b>P</b>eople)", "<b>I</b>nvigorated Stakeholders become markers", "<b>E</b>ngaged Community Partners"], listStyle: .bullet)
+            
+            let p4 = addParagraph(after: l2, withText: "HERE IS THE HAPPINESS FORMULA: \n<b>H = S + C + V</b>")
+            
+            let l3 = addList(after: p4,
+                             withItems: ["<b>H</b> = your level of happiness overall",
+                                         "<b>S</b> = your set point for happiness (like your weight, possibly a genetic predisposition)",
+                                         "<b>C</b> = current conditions such as financial stability, living conditions or health",
+                                         "<b>V</b> = voluntary activities and behaviors you choose (actions you can control)"],
+                             listStyle: .bullet)
+            
+            let p5 = addParagraph(after: l3, withText: "BE AWARE! There are 6 Key Happiness Traps that you must deal with directly. These traps are not worth staying in for another minute. Remember Life Starts at the end of your comfort zone. Traps are comfortable, but they are not Life at its Best.")
+            
+            let l4 = addList(after: p5,
+                             withItems: ["I am what I do - Value who you are",
+                                         "Resentment – Truly let go, forgive",
+                                         "Self-doubt – Trust your voice",
+                                         "Whose needs? – Your needs",
+                                         "Money Matters – Work has meaning",
+                                         "Setting your Pace – Life on your time"],
+                             listStyle: .bullet)
+            
+            let p6 = addParagraph(after: l4, withText: "Happiness and the Paradox of Profits.\n\nOne thing we know about happiness is that you probably won’t get it if you seek it directly. That's simply not how it works. If you do seek it directly you will probably discover that your own happiness is the cost of that search.\n\nHappiness is a natural “by product” of seeking “other things” in life, when we pursue these things we will achieve happiness...")
+            
+            let l5 = addList(after: p6, withItems: ["Purpose", "Love", "Generosity", "Service (to others)", "Friendship", "Compassion"], listStyle: .bullet)
+            
+            let h1 = addHeading(after: l5, level: 3, withText: "Profits behave the same way as Happiness, profits are a by-product of purpose.")
+            
+            let p7 = addParagraph(after: h1, withText: "Company founders usually set the deeper purpose of the business for the Shareholders, Teams, Investors and Customers; but they do not control it. Purpose evolves from “Values” over the lifetime of a company. Purpose motivates others to their highest potential. Consider these powerful company purposes:")
+            
+            let l6 = addList(after: p7, withItems: ["The good - Southwest, Container Store",
+                                                    "The true - Google, Wikipedia",
+                                                    "The beautiful - Apple Computer",
+                                                    "The heroic - Grameen Bank to abolish poverty (Mohammad Yunus)"],
+                             listStyle: .bullet)
+            
+            _ = addParagraph(after: l6, withText: "For more advanced exercises feel free go to the TOOLS menu. Suggested TOOLS for being Happier on the Job: Making it to the Top, CAMPS, FAST and the Abundance Audit.\n\nNow you know a bit more about What Happy Companies Know.  ")
+            
+            break
+        case 2:
+            //MARK:- Chapter 2
+            let t1 = "Welcome to Your Happiness Now"
+            titleLabel.text = t1
+            addTitle(titleLabel)
+            
+            break
+        case 3:
+            //MARK:- Chapter 3
+            let t1 = "Welcome to Your Happiness Now"
+            titleLabel.text = t1
+            addTitle(titleLabel)
+            
+            break
+        case 4:
+            //MARK:- Chapter 4
+            let t1 = "Welcome to Your Happiness Now"
+            titleLabel.text = t1
+            addTitle(titleLabel)
+            
             break
         default:
             break
