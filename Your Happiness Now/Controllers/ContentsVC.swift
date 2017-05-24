@@ -14,7 +14,7 @@ protocol ContentsDelegate {
 
 class ContentsVC: UITableViewController {
     
-    var chapters: [[String:String]] {
+    var chapters: [String] {
         get {
             return FileHelper.main.chapters
         }
@@ -38,11 +38,11 @@ class ContentsVC: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "tocCell", for: indexPath) as! ContentsTableViewCell
         
-        cell.chapterTitle.text  = chapters[indexPath.row]["title"]
+        cell.chapterTitle.text  = chapters[indexPath.row]
         cell.chapterTitle.textColor = UIColor.ebonyClay
         
         cell.chapterIndex.textColor = UIColor.ebonyClay
-        cell.chapterIndex.text = chapters[indexPath.row]["subtitle"]
+        cell.chapterIndex.text = "\(indexPath.row + 1)"
         
         return cell
     }
