@@ -37,7 +37,9 @@ class ArticleVC: PagesController, ContentsDelegate, MFMailComposeViewControllerD
     }
     
     func updateView() {
-        navigationItem.title = FileHelper.main.chapters[currentIndex]["subtitle"]
+        let numbers = ["One", "Two", "Three", "Four", "Five"]
+        let newTitle = "Chapter " + numbers[currentChapter]
+        navigationItem.title = newTitle
     }
     
     @IBAction func contentsTapped(_ sender: Any) {
