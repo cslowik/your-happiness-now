@@ -27,10 +27,10 @@
 		836CD3B01ED5CFE400CC436B /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 836CD3AB1ED5CFE400CC436B /* OpenSans-Italic.ttf */; };
 		836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 836CD3AC1ED5CFE400CC436B /* OpenSans-Regular.ttf */; };
 		836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 836CD3AD1ED5CFE400CC436B /* OpenSans-Semibold.ttf */; };
+		838F997B1ED9F1EB009B5C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838F997A1ED9F1EB009B5C58 /* Assets.xcassets */; };
 		839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */; };
 		839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74EF1ED5470D00B46DE0 /* ViewController.swift */; };
 		839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F11ED5470D00B46DE0 /* Main.storyboard */; };
-		839A74F51ED5470D00B46DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F41ED5470D00B46DE0 /* Assets.xcassets */; };
 		839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F61ED5470D00B46DE0 /* LaunchScreen.storyboard */; };
 		CE8C09FFEF3B0DA5F4BA3AEE /* Pods_Your_Happiness_Now.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88EAA77B278B4AA9AE3AB44 /* Pods_Your_Happiness_Now.framework */; };
 /* End PBXBuildFile section */
@@ -58,11 +58,11 @@
 		836CD3AB1ED5CFE400CC436B /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		836CD3AC1ED5CFE400CC436B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		836CD3AD1ED5CFE400CC436B /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		838F997A1ED9F1EB009B5C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		839A74EA1ED5470D00B46DE0 /* Your Happiness Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Happiness Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839A74EF1ED5470D00B46DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		839A74F21ED5470D00B46DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		839A74F41ED5470D00B46DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839A74F71ED5470D00B46DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839A74F91ED5470D00B46DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88EAA77B278B4AA9AE3AB44 /* Pods_Your_Happiness_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Your_Happiness_Now.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +157,7 @@
 		839A74EC1ED5470D00B46DE0 /* Your Happiness Now */ = {
 			isa = PBXGroup;
 			children = (
+				838F997A1ED9F1EB009B5C58 /* Assets.xcassets */,
 				836CD3A81ED5CFE400CC436B /* Fonts */,
 				836CD39A1ED5CFD700CC436B /* Utility */,
 				836CD39E1ED5CFD700CC436B /* Views */,
@@ -165,7 +166,6 @@
 				839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */,
 				839A74EF1ED5470D00B46DE0 /* ViewController.swift */,
 				839A74F11ED5470D00B46DE0 /* Main.storyboard */,
-				839A74F41ED5470D00B46DE0 /* Assets.xcassets */,
 				839A74F61ED5470D00B46DE0 /* LaunchScreen.storyboard */,
 				839A74F91ED5470D00B46DE0 /* Info.plist */,
 			);
@@ -254,11 +254,11 @@
 			files = (
 				836CD3AE1ED5CFE400CC436B /* Montserrat-Bold.ttf in Resources */,
 				839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */,
-				839A74F51ED5470D00B46DE0 /* Assets.xcassets in Resources */,
 				836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */,
 				836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */,
 				836CD3B01ED5CFE400CC436B /* OpenSans-Italic.ttf in Resources */,
 				836CD3AF1ED5CFE400CC436B /* Montserrat-Regular.ttf in Resources */,
+				838F997B1ED9F1EB009B5C58 /* Assets.xcassets in Resources */,
 				839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

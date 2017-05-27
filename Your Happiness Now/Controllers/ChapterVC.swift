@@ -41,7 +41,8 @@ class ChapterVC: UIViewController, ChapterViewDelegate {
     }
     
     //MARK:- ChapterViewDelegate
-    func watchVideo(atURL videoURL: String) {
+    func watchVideo(_ videoIndex: Int) {
+        let videoURL = FileHelper.main.videos[videoIndex]
         let player = AVPlayer(url: URL(string: videoURL)!)
         let playerVC = AVPlayerViewController()
         playerVC.player = player

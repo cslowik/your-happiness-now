@@ -13,7 +13,7 @@ enum ListStyle {
 }
 
 protocol ChapterViewDelegate {
-    func watchVideo(atURL videoURL: String)
+    func watchVideo(_ videoIndex: Int)
 }
 
 class ChapterView: UIScrollView {
@@ -58,29 +58,29 @@ class ChapterView: UIScrollView {
             
             let p1 = addParagraph(after: h1, withText: "Hello and welcome to the Your Happiness Now app. This app is one of our efforts to share the life changing value of our research, our writing and our tools. I'll explain the app and its features as we proceed. But please start by watching the welcome video here.")
             
-            //TODO: video
+            let v1 = addMovieButton(after: p1, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/1.m4v", posterImage: #imageLiteral(resourceName: "video_0-1"))
+            /*
+            let p2 = addParagraph(after: v1, withText: "I am joined by a lot of wonderful, smart, successful and happy people in wishing you great joy. Listen here to one of these people, my good friend James Malinchak featured on abc TV's “The Secret Millionaire”, as he tells you what he thinks about being happy now.")
             
-            let p2 = addParagraph(after: p1, withText: "I am joined by a lot of wonderful, smart, successful and happy people in wishing you great joy. Listen here to one of these people, my good friend James Malinchak featured on abc TV's “The Secret Millionaire”, as he tells you what he thinks about being happy now.")
+            let v2 = addMovieButton(after: p2, atURL: <#T##String#>, posterImage: <#T##UIImage#>)*/
             
-            //TODO: video
+            let p3 = addParagraph(after: v1, withText: "Alright, let's get right to Your Happiness Now. One of the most simple ways to rate your Happiness right now is to ask yourself a simple question - “Is My Glass Half Full?” While that may seem like an overly simple question the reason is, well, simple. If you perceive your glass, or your life, as half empty then I suspect your energy is being drained. That's right, your energy is being drained by an Energy Vampire. Let me explain in this brief video.")
             
-            let p3 = addParagraph(after: p2, withText: "Alright, let's get right to Your Happiness Now. One of the most simple ways to rate your Happiness right now is to ask yourself a simple question - “Is My Glass Half Full?” While that may seem like an overly simple question the reason is, well, simple. If you perceive your glass, or your life, as half empty then I suspect your energy is being drained. That's right, your energy is being drained by an Energy Vampire. Let me explain in this brief video.")
+            let v3 = addMovieButton(after: p3, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/2.m4v", posterImage: #imageLiteral(resourceName: "video_0-2"))
             
-            //TODO: video
+            let p4 = addParagraph(after: v3, withText: "In the following video I cover some of the tools in the Your Happiness Now app. We've put our best tools and tips into this app. If you take the time to watch the videos and work with the tools, I am confident that you will increase your Happiness now.")
             
-            let p4 = addParagraph(after: p3, withText: "In the following video I cover some of the tools in the Your Happiness Now app. We've put our best tools and tips into this app. If you take the time to watch the videos and work with the tools, I am confident that you will increase your Happiness now.")
+            let v4 = addMovieButton(after: p4, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/3.m4v", posterImage: #imageLiteral(resourceName: "video_0-3"))
             
-            //TODO: video
+            let p5 = addParagraph(after: v4, withText: "Wellbeing is a Key to your Success. With Wellbeing in your life you will see the reasons to rejoice, you will have the energy to tackle the tasks in front of you and you will be able to relax and sleep peacefully. Your health will improve and joy will be your constant companion. Give me a minute to explain - watch this video.")
             
-            let p5 = addParagraph(after: p4, withText: "Wellbeing is a Key to your Success. With Wellbeing in your life you will see the reasons to rejoice, you will have the energy to tackle the tasks in front of you and you will be able to relax and sleep peacefully. Your health will improve and joy will be your constant companion. Give me a minute to explain - watch this video.")
+            let v5 = addMovieButton(after: p5, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/6.m4v", posterImage: #imageLiteral(resourceName: "video_0-4"))
             
-            //TODO: video
+            let p6 = addParagraph(after: v5, withText: "Let's talk about the first advanced tool I would like you to try. It's called the Energy Audit. You can find it on the Tools section of the menu, but before you do that, watch this short video on it below.")
             
-            let p6 = addParagraph(after: p5, withText: "Let's talk about the first advanced tool I would like you to try. It's called the Energy Audit. You can find it on the Tools section of the menu, but before you do that, watch this short video on it below.")
+            let v6 = addMovieButton(after: p6, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/7.m4v", posterImage: #imageLiteral(resourceName: "video_0-5"))
             
-            //TODO: video
-            
-            let p7 = addParagraph(after: p6, withText: "Do take the time to go through all the tools in this app, and to watch all the video as well. Combined, these things will really jumpstart your efforts to join the ranks of those who are Happy Now.")
+            let p7 = addParagraph(after: v6, withText: "Do take the time to go through all the tools in this app, and to watch all the video as well. Combined, these things will really jumpstart your efforts to join the ranks of those who are Happy Now.")
             
             let p8 = addParagraph(after: p7, withText: "Getting Started Exercise: “What makes you happy that money can’t buy”.")
             
@@ -94,7 +94,7 @@ class ChapterView: UIScrollView {
                                          "Maybe that’s why some of the poorest countries are in fact the happiest. Money, alone, does not create happiness."],
                              listStyle: .bullet)
             
-            let p9 = addParagraph(after: l1, withText: "Getting Started Exercise: “Can you name the HAPPINESS TRAPS” in your life?\n“Happiness Traps” are usually the things we believe will make us happy or happier.\nHappiness Traps will change with age and are different for males and females, across generations and cultures.\nHappiness Traps apply at work and at home.\nThe funny thing about “Happiness Traps” is – they can make us unhappy or reduce our overall happiness even after we have achieved them. Why? Because we often focus on the “achievement” of the goal and not the “experience” or the “joy” of the moment once the task is done.\n“Happiness Traps” are usually “things” or “goals” in life that mark both our social and cultural traditions of success. Here are some examples to get you thinking...")
+            let p9 = addParagraph(after: l1, withText: "Getting Started Exercise: “Can you name the HAPPINESS TRAPS” in your life?\n\n“Happiness Traps” are usually the things we believe will make us happy or happier.\n\nHappiness Traps will change with age and are different for males and females, across generations and cultures.\n\nHappiness Traps apply at work and at home.\n\nThe funny thing about “Happiness Traps” is – they can make us unhappy or reduce our overall happiness even after we have achieved them. Why? Because we often focus on the “achievement” of the goal and not the “experience” or the “joy” of the moment once the task is done.\n\n“Happiness Traps” are usually “things” or “goals” in life that mark both our social and cultural traditions of success. Here are some examples to get you thinking...")
             
             let l2 = addList(after: p9,
                              withItems: ["Graduation",
@@ -123,17 +123,20 @@ class ChapterView: UIScrollView {
                                          "High people loyalty can create returns of 30-50%.",
                                          "Companies with a clearly articulated reward strategy have 13% lower turnover."],
                              listStyle: .bullet)
-            //TODO: video
             
-            let p2 = addParagraph(after: l1, withText: "Happy and successful companies leave clues about how they do it. So the study of these companies is worthy of your effort. Our highly acclaimed book What Happy Companies Know (with Dan Baker and Collins Hemingway) will walk you through the clues and show you exactly how they do it. You can find that book and my other award winning books on Books menu.")
+            let v1 = addMovieButton(after: l1, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/4.m4v", posterImage: #imageLiteral(resourceName: "video_1-1"))
             
-            //TODO: video
+            let p2 = addParagraph(after: v1, withText: "Happy and successful companies leave clues about how they do it. So the study of these companies is worthy of your effort. Our highly acclaimed book What Happy Companies Know (with Dan Baker and Collins Hemingway) will walk you through the clues and show you exactly how they do it. You can find that book and my other award winning books on Books menu.")
             
-            let p3 = addParagraph(after: p2, withText: "The Principles that Happy Companies leverage to create Happy Employees can be easily remembered by using the acronym HAPIE. Each letter is one key to a practice that can lead to increases in overall Happiness, which we know can lead to increases in profits. These principles are practical, easy to follow and can lead to greater success on all fronts. Start by applying one principle a week.")
+            let v2 = addMovieButton(after: p2, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/5.m4v", posterImage: #imageLiteral(resourceName: "video_1-2"))
+            
+            let p3 = addParagraph(after: v2, withText: "The Principles that Happy Companies leverage to create Happy Employees can be easily remembered by using the acronym HAPIE. Each letter is one key to a practice that can lead to increases in overall Happiness, which we know can lead to increases in profits. These principles are practical, easy to follow and can lead to greater success on all fronts. Start by applying one principle a week.")
             
             let l2 = addList(after: p3, withItems: ["<b>H</b>eartfelt Leadership", "<b>A</b>daptive Products and Services", "<b>P</b>rofit With People (ROP = Return on <b>P</b>eople)", "<b>I</b>nvigorated Stakeholders become markers", "<b>E</b>ngaged Community Partners"], listStyle: .bullet)
             
-            let p4 = addParagraph(after: l2, withText: "HERE IS THE HAPPINESS FORMULA: \n<b>H = S + C + V</b>")
+            let v3 = addMovieButton(after: l2, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/10.m4v", posterImage: #imageLiteral(resourceName: "video_1-3"))
+            
+            let p4 = addParagraph(after: v3, withText: "HERE IS THE HAPPINESS FORMULA: \n<b>H = S + C + V</b>")
             
             let l3 = addList(after: p4,
                              withItems: ["<b>H</b> = your level of happiness overall",
@@ -180,24 +183,25 @@ class ChapterView: UIScrollView {
             
             let p1 = addParagraph(after: h1, withText: "After surveying and interviewing over 1,000 Working Moms and applying our knowledge in What Happy Companies Know and What Happy Women Know, we've developed some key insights into What Happy Working Mothers Know. It's our great pleasure to share these insights with you here.\n\nOne major discovery from our research is that **men fear not having enough** while **women fear not being enough**. This fear is a major block to happiness and yes it can be overcome. Let me suggest that the first step in breaking fear's ability to block your joy is to name it for what it is: False Evidence Appearing Real.")
                 
-                //TODO: video http://s3.amazonaws.com/sixvoices.video/happyapp/9.m4v
+            let v1 = addMovieButton(after: p1, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/9.m4v", posterImage: #imageLiteral(resourceName: "video_2-1"))
             
-            let p2 = addParagraph(after: p1, withText: "Watch this video where I explain our FEAR Audit tool. You can find this powerful Audit in the Tools section of the app or on our website. No matter where you get it from, use it! And share it!\n\nOnce we've put fear in its place - being out of your life - the obvious question becomes what are the elements of Happiness? To best describe that we use an acronym - HAPPY. That's going to be easy to remember!")
+            let p2 = addParagraph(after: v1, withText: "Watch this video where I explain our FEAR Audit tool. You can find this powerful Audit in the Tools section of the app or on our website. No matter where you get it from, use it! And share it!\n\nOnce we've put fear in its place - being out of your life - the obvious question becomes what are the elements of Happiness? To best describe that we use an acronym - HAPPY. That's going to be easy to remember!")
             
-            //TODO: video http://s3.amazonaws.com/sixvoices.video/happyapp/11.m4v) 
+            let v2 = addMovieButton(after: p2, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/11.m4v", posterImage: #imageLiteral(resourceName: "video_2-2"))
             
-            let l1 = addList(after: p2,
+            let l1 = addList(after: v2,
                              withItems: ["<b>H</b>ealthy (emotionally and physically)",
                                          "<b>A</b>daptive",
                                          "<b>P</b>roud of Work",
                                          "<b>P</b>roud of Family",
                                          "<b>Y</b>oung at Heart"],
                              listStyle: .bullet)
+            
             let p3 = addParagraph(after: l1, withText: "On our journey to Happiness we discover that this is a path that has been taken by many before us. Those who have gone before have identified the pitfalls on the path and by doing so they have paid-it-forward to you and I. Once you know the pitfalls you can see them coming and with some new tools you'll be able avoid them completely. Watch the video below to listen to me talk about the Will To Coach. In it I'll name three big pitfalls.")
             
-            //TODO: video(http://s3.amazonaws.com/sixvoices.video/happyapp/12.m4v)
+            let v3 = addMovieButton(after: p3, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/12.m4v", posterImage: #imageLiteral(resourceName: "video_2-3"))
             
-            let p4 = addParagraph(after: p3, withText: "Getting Started Exercise:\n\nWhat one small thing can you do every day to increase your health? (Tip: eat less salt, less sugar, drink more water)\n\nWhat one thing can you be more flexible about to increase “adapting” to situations you cannot always control?\n\nWhat 15 seconds of the day can you recall that made you feel proud at work – small or large – the effort paid off?\n\nWhat can you pause and laugh about today? If it includes laughing at yourself, even better. If you can share the moment and make someone else laugh – go for it.\n\nBE AWARE! The following Working Mothers Happiness Traps are often reinforced by society and even, remarkably, by our own families. You must rely on your intuition, your strength and your beautiful self to get out of these traps.")
+            let p4 = addParagraph(after: v3, withText: "Getting Started Exercise:\n\nWhat one small thing can you do every day to increase your health? (Tip: eat less salt, less sugar, drink more water)\n\nWhat one thing can you be more flexible about to increase “adapting” to situations you cannot always control?\n\nWhat 15 seconds of the day can you recall that made you feel proud at work – small or large – the effort paid off?\n\nWhat can you pause and laugh about today? If it includes laughing at yourself, even better. If you can share the moment and make someone else laugh – go for it.\n\nBE AWARE! The following Working Mothers Happiness Traps are often reinforced by society and even, remarkably, by our own families. You must rely on your intuition, your strength and your beautiful self to get out of these traps.")
                 
             let l2 = addList(after: p4,
                              withItems: ["Supermom",
@@ -237,13 +241,13 @@ class ChapterView: UIScrollView {
             
             let p1 = addParagraph(after: h1, withText: "The story we tell ourselves, the one about ourselves, drives everything we do. It has been famously said that you cannot outperform your own self-image. Well, your story is your self-image. You'll be delighted and relived to know that you can change your story at any time however. So if you're not living the life of happiness that you know you should be, know that it can change by changing your story. Let me tell how in this brief video.")
             
-            //TODO: video (http://s3.amazonaws.com/sixvoices.video/happyapp/8.m4v).
+            let v1 = addMovieButton(after: p1, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/8.m4v)", posterImage: #imageLiteral(resourceName: "video_3-1"))
             
-            let p2 = addParagraph(after: p1, withText: "A truly great method of changing your story in any area of your life is through the use of tools designed for that specific purpose. I've spent many years putting these kinds of tools together. One of these I call the FAST Audit and I've put it in this app for you. The FAST Audit will help you change your thinking in the area of abundance, and that my friend, can rewrite your story in remarkable ways. Watch this video where I explain the FAST audit.")
+            let p2 = addParagraph(after: v1, withText: "A truly great method of changing your story in any area of your life is through the use of tools designed for that specific purpose. I've spent many years putting these kinds of tools together. One of these I call the FAST Audit and I've put it in this app for you. The FAST Audit will help you change your thinking in the area of abundance, and that my friend, can rewrite your story in remarkable ways. Watch this video where I explain the FAST audit.")
             
-            //TODO: video ("http://s3.amazonaws.com/sixvoices.video/happyapp/13.m4v) where I explain the FAST Audit.
+            let v2 = addMovieButton(after: p2, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/13.m4v", posterImage: #imageLiteral(resourceName: "video_3-2"))
             
-            let p3 = addParagraph(after: p2, withText: "Getting Started Exercise: Telling Your Powerful, Positive Story")
+            let p3 = addParagraph(after: v2, withText: "Getting Started Exercise: Telling Your Powerful, Positive Story")
             let l1 = addList(after: p3,
                              withItems: ["Practice a number of stories and pick one to focus on for this exercise. You can repeat the process as needed for more stories.",
                                          "Think of a time when your gifts really made a difference in the life of someone who needed it (at work or at home).",
@@ -265,9 +269,9 @@ class ChapterView: UIScrollView {
                              listStyle: .bullet)
             let p5 = addParagraph(after: l2, withText: "With your new story in place, or underway, your destination is clear - The Top. Making It To The Top isn't just a dream anymore, it's guaranteed. Think about it, if you are living a life filled with joy, filled with happiness, isn’t that the top? It is! And you deserve it my friend. You most certainly deserve it. Let me share with you now a video that explains this a bit more.")
             
-            //TODO: video (http://s3.amazonaws.com/sixvoices.video/happyapp/14.m4v)
+            let v3 = addMovieButton(after: p5, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/14.m4v", posterImage: #imageLiteral(resourceName: "video_3-3"))
             
-            _ = addParagraph(after: p5, withText: "Go to the TOOLS menu to discover more tools for Being Happy Now.")
+            _ = addParagraph(after: v3, withText: "Go to the TOOLS menu to discover more tools for Being Happy Now.")
             
             break
         case 4:
@@ -322,9 +326,9 @@ class ChapterView: UIScrollView {
             
             let p3 = addParagraph(after: l4, withText: "We've covered a lot of ideas in this, Your Happiness Now app. But there's more to explore still. Please watch this video and let me explain a bit more of it. Don't forget to visit our websites too, like all the resources the links are in the menu.")
             
-            //TODO: Video (http://s3.amazonaws.com/sixvoices.video/happyapp/15.m4v)
+            let v1 = addMovieButton(after: p3, atURL: "http://s3.amazonaws.com/sixvoices.video/happyapp/15.m4v", posterImage: #imageLiteral(resourceName: "video_4-1"))
  
-            _ = addHeading(after: p3, level: 2, withText: "Go be happy!")
+            _ = addHeading(after: v1, level: 2, withText: "Go be happy!")
             
             break
         default:
@@ -352,10 +356,12 @@ class ChapterView: UIScrollView {
         movieButton.snp.makeConstraints { (make) in
             make.left.equalToSuperview().inset(edgeMargin)
             make.right.equalToSuperview().inset(edgeMargin)
-            make.height.equalTo(64)
+            make.height.equalTo(height)
             make.top.equalTo(after.snp.bottom).offset(edgeMargin * 2)
         }
-        movieButton.addTarget(self, action: #selector(watchVideo(atURL:)), for: .touchUpInside)
+        movieButton.addTarget(self, action: #selector(watchVideo(_:)), for: .touchUpInside)
+        movieButton.tag = FileHelper.main.videos.count
+        FileHelper.main.videos.append(videoUrl)
         return movieButton
     }
     
@@ -400,7 +406,7 @@ class ChapterView: UIScrollView {
         pView.snp.makeConstraints { (make) in
             make.left.equalToSuperview().inset(edgeMargin)
             make.right.equalToSuperview().inset(edgeMargin)
-            make.top.equalTo(after.snp.bottom)
+            make.top.equalTo(after.snp.bottomMargin).offset(edgeMargin * 2)
         }
         return pView
     }
@@ -632,8 +638,8 @@ class ChapterView: UIScrollView {
     }
     
     
-    func watchVideo(atURL videoURL: String) {
-        chapterDelegate.watchVideo(atURL: videoURL)
+    func watchVideo(_ sender: AnyObject) {
+        chapterDelegate.watchVideo(sender.tag!)
     }
     
 }

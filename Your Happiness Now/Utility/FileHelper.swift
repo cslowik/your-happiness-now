@@ -8,6 +8,7 @@ class FileHelper {
     static let main = FileHelper()
     
     var chapters: [String]
+    var videos: [String]
     
     init() {
         chapters = ["Welcome to Your Happiness Now",
@@ -15,6 +16,7 @@ class FileHelper {
                     "What Happy Working Mothers Know",
                     "What Happy Women Know",
                     "What Happy Coaches Know"]
+        videos = []
     }
     
     func buildChapters() -> [ChapterVC] {
