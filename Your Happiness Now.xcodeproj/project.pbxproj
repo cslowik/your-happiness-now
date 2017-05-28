@@ -11,11 +11,9 @@
 		836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */; };
 		836CD38A1ED5CEF100CC436B /* UIColor-Swatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */; };
 		836CD38C1ED5CF0C00CC436B /* NSObject-callSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD38B1ED5CF0C00CC436B /* NSObject-callSelector.swift */; };
-		836CD3941ED5CF7C00CC436B /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD38E1ED5CF7C00CC436B /* AboutVC.swift */; };
 		836CD3951ED5CF7C00CC436B /* ArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD38F1ED5CF7C00CC436B /* ArticleVC.swift */; };
 		836CD3961ED5CF7C00CC436B /* ChapterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3901ED5CF7C00CC436B /* ChapterVC.swift */; };
 		836CD3971ED5CF7C00CC436B /* ContentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3911ED5CF7C00CC436B /* ContentsVC.swift */; };
-		836CD3981ED5CF7C00CC436B /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3921ED5CF7C00CC436B /* MenuVC.swift */; };
 		836CD3991ED5CF7C00CC436B /* ScrollingNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3931ED5CF7C00CC436B /* ScrollingNav.swift */; };
 		836CD3A31ED5CFD700CC436B /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD39C1ED5CFD700CC436B /* FileHelper.swift */; };
 		836CD3A41ED5CFD700CC436B /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD39D1ED5CFD700CC436B /* TextStyles.swift */; };
@@ -28,6 +26,8 @@
 		836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 836CD3AC1ED5CFE400CC436B /* OpenSans-Regular.ttf */; };
 		836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 836CD3AD1ED5CFE400CC436B /* OpenSans-Semibold.ttf */; };
 		838F997B1ED9F1EB009B5C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838F997A1ED9F1EB009B5C58 /* Assets.xcassets */; };
+		838F997D1EDB406F009B5C58 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997C1EDB406F009B5C58 /* MenuVC.swift */; };
+		838F997F1EDB4BD7009B5C58 /* AdvancedToolsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */; };
 		839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */; };
 		839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74EF1ED5470D00B46DE0 /* ViewController.swift */; };
 		839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F11ED5470D00B46DE0 /* Main.storyboard */; };
@@ -42,11 +42,9 @@
 		836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont-TextStyles.swift"; path = "Your Happiness Now/Extensions/UIFont-TextStyles.swift"; sourceTree = "<group>"; };
 		836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Swatches.swift"; path = "Your Happiness Now/Extensions/UIColor-Swatches.swift"; sourceTree = "<group>"; };
 		836CD38B1ED5CF0C00CC436B /* NSObject-callSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject-callSelector.swift"; path = "Your Happiness Now/Extensions/NSObject-callSelector.swift"; sourceTree = "<group>"; };
-		836CD38E1ED5CF7C00CC436B /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		836CD38F1ED5CF7C00CC436B /* ArticleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleVC.swift; sourceTree = "<group>"; };
 		836CD3901ED5CF7C00CC436B /* ChapterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterVC.swift; sourceTree = "<group>"; };
 		836CD3911ED5CF7C00CC436B /* ContentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsVC.swift; sourceTree = "<group>"; };
-		836CD3921ED5CF7C00CC436B /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		836CD3931ED5CF7C00CC436B /* ScrollingNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingNav.swift; sourceTree = "<group>"; };
 		836CD39C1ED5CFD700CC436B /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
 		836CD39D1ED5CFD700CC436B /* TextStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
@@ -59,6 +57,8 @@
 		836CD3AC1ED5CFE400CC436B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		836CD3AD1ED5CFE400CC436B /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		838F997A1ED9F1EB009B5C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		838F997C1EDB406F009B5C58 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedToolsVC.swift; sourceTree = "<group>"; };
 		839A74EA1ED5470D00B46DE0 /* Your Happiness Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Happiness Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839A74EF1ED5470D00B46DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,12 +95,12 @@
 		836CD38D1ED5CF7C00CC436B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				836CD38E1ED5CF7C00CC436B /* AboutVC.swift */,
 				836CD38F1ED5CF7C00CC436B /* ArticleVC.swift */,
 				836CD3901ED5CF7C00CC436B /* ChapterVC.swift */,
 				836CD3911ED5CF7C00CC436B /* ContentsVC.swift */,
-				836CD3921ED5CF7C00CC436B /* MenuVC.swift */,
+				838F997C1EDB406F009B5C58 /* MenuVC.swift */,
 				836CD3931ED5CF7C00CC436B /* ScrollingNav.swift */,
+				838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -318,15 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836CD3941ED5CF7C00CC436B /* AboutVC.swift in Sources */,
 				836CD3861ED5CEA100CC436B /* UITextView-Configuration.swift in Sources */,
 				836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */,
 				839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */,
 				836CD3A31ED5CFD700CC436B /* FileHelper.swift in Sources */,
+				838F997D1EDB406F009B5C58 /* MenuVC.swift in Sources */,
+				838F997F1EDB4BD7009B5C58 /* AdvancedToolsVC.swift in Sources */,
 				839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */,
 				836CD3A61ED5CFD700CC436B /* ContentsTableViewCell.swift in Sources */,
 				836CD3961ED5CF7C00CC436B /* ChapterVC.swift in Sources */,
-				836CD3981ED5CF7C00CC436B /* MenuVC.swift in Sources */,
 				836CD3991ED5CF7C00CC436B /* ScrollingNav.swift in Sources */,
 				836CD3971ED5CF7C00CC436B /* ContentsVC.swift in Sources */,
 				836CD38C1ED5CF0C00CC436B /* NSObject-callSelector.swift in Sources */,

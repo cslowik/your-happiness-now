@@ -46,45 +46,41 @@ class ScrollingNav: UINavigationController, MenuDelegate, MFMailComposeViewContr
         controller.dismiss(animated: true, completion: nil)
     }
     
-    func freeTools() {
-        let leadershipURL = URL(string: "http://www.truenorthleadership.com/ei-leadership-tools/")!
-        let safariController = SFSafariViewController(url: leadershipURL)
+    func about() {
+        let aboutURL = URL(string: "http://fearlessleadersgroup.com")!
+        let safariController = SFSafariViewController(url: aboutURL)
         safariController.delegate = self
         self.present(safariController, animated: true, completion: nil)
-    }
-    
-    func about() {
-        let aboutVC = AboutVC()
-        show(aboutVC, sender: self)
     }
 
     ////MARK: - MenuDelegate
     
     func didSelectItem(_ index: Int, sender: MenuVC) {
         switch index {
+        case 0:
+            break
         case 1:
-            sender.dismiss(animated: true, completion: nil)
-            shareViaEmail()
             break
         case 2:
-            sender.dismiss(animated: true, completion: nil)
-            callSelector(#selector(freeTools), object: self, delay: 0.5)
             break
         case 3:
+            break
+        case 4:
+            break
+        case 5:
             sender.dismiss(animated: true, completion: nil)
-            about()
+            callSelector(#selector(about), object: self, delay: 0.5)
             break
         default:
-            sender.dismiss(animated: true, completion: nil)
             break
         }
     }
     
     ////MARK: - SFSafariViewControllerDelegate
     func safariViewController(_ controller: SFSafariViewController, didCompleteInitialLoad didLoadSuccessfully: Bool) {
-        print("loaded")
+        //print("loaded")
     }
     func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
-        print("finish")
+        //print("finish")
     }
 }

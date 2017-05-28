@@ -9,6 +9,7 @@ class FileHelper {
     
     var chapters: [String]
     var videos: [String]
+    var advTools: [(String, String)]
     
     init() {
         chapters = ["Welcome to Your Happiness Now",
@@ -17,6 +18,12 @@ class FileHelper {
                     "What Happy Women Know",
                     "What Happy Coaches Know"]
         videos = []
+        advTools = [("Assessment", "Your Abundance Audit"),
+                    ("Assessment", "Your CAMPS Audit"),
+                    ("Assessment", "Energy Assessment"),
+                    ("FAST", "Fear Appreciation Spectrum Test"),
+                    ("Worksheet", "Your Committment Audit"),
+                    ("Worksheet", "Making It To The Top")]
     }
     
     func buildChapters() -> [ChapterVC] {
