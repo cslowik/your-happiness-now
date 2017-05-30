@@ -23,12 +23,6 @@ class MenuVC: UITableViewController, ToolsDelegate {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         delegate?.didSelectItem(indexPath.row, sender: self)
-        switch indexPath.row {
-        case 0:
-            break
-        default:
-            break
-        }
     }
     
     //MARK:- Tools Delegate

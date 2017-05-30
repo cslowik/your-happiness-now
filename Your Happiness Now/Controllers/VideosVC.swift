@@ -44,6 +44,15 @@ class VideosVC: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let cellBackground = UIColor.athensGray
+        cell.backgroundColor = cellBackground
+        
+        if (indexPath as NSIndexPath).row % 2 != 0 {
+            cell.backgroundColor = UIColor.clear
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         watchVideo(indexPath.row)
     }

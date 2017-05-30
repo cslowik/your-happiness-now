@@ -37,7 +37,8 @@ class ScrollingNav: UINavigationController, MenuDelegate, MFMailComposeViewContr
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
             mail.mailComposeDelegate = self
-            mail.setMessageBody("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><Title>Free Leadership Keys App</title></head><body style=\"background-color: #ededed;\"><table width=\"320\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"font-family: Helvetica, Verdana, Arial, sans-serif;\"><tr><td align=\"center\"><table width=\"300\" border=\"0\" cellpadding=\"10\" cellspacing=\"0\" style=\"background-color: white; line-height: 18px; font-size: 14px; color:#333333;\"><tr><td><p>Available now: <i>Get Dr. Nadler's</i> <b>Leadership Keys for the iPhone, iPad and iPod Touch.</b> Each of the 10 Leadership Keys provides the steps to becoming a great leader. Each Key also has a video describing how to apply it in your daily work. <i><b>Get just in time</b> leadership skills to propel you into the top 10%</i> with these great keys.</p><p align=\"center\"><img src=\"http://d3t3jbuppiyjdl.cloudfront.net/misc/leadershipkeys.jpg\" alt=\"Leadership Keys\" width=\"300\" height=\"450\"/></p><p align=\"center\"><a href=\"http://itunes.apple.com/us/app/leadership-keys/id457296921?ls=1&mt=8\" style=\"color: #57232f;\">Get the App now from the App Store</a></p></td></tr></table></td></tr></table></body></html>", isHTML: true)
+            mail.setSubject("The Your Happiness Now App for the iPhone")
+            mail.setMessageBody("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"><html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></head><body dir=\"auto\"><div><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><title>The Your Happiness Now App</title><table width=\"95%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"font-family: Helvetica, Verdana, Arial, sans-serif;\"><tbody><tr><td align=\"center\"><table width=\"100%\" border=\"0\" cellpadding=\"10\" cellspacing=\"0\" style=\"background-color: white; line-height: 18px; font-size: 14px; color:#333333;\"><tbody><tr><td><p align=\"center\"><img src=\"http://www.h2cleadership.com/img/logo.gif\" alt=\"The Happy App\" width=\"170\" height=\"140\" align=\"center\"></p><p>Available now: <b>The Your Happiness Now App for iPad, iPhone and iPod touch!</b>  Learn about the life of happiness... </p><p align=\"center\"><a href=\"http://bit.ly/HappyApp\" style=\"color: #57232f;\">Get the App now from the App Store</a></p></td></tr></tbody></table></td></tr></tbody></table></div><div><br><br>Sent from my iPhone</div></body></html>", isHTML: true)
             present(mail, animated: true, completion: nil)
         }
     }
@@ -64,12 +65,12 @@ class ScrollingNav: UINavigationController, MenuDelegate, MFMailComposeViewContr
         case 2:
             break
         case 3:
+            sender.dismiss(animated: true, completion: nil)
+            callSelector(#selector(shareViaEmail), object: self, delay: 0.35)
             break
         case 4:
-            break
-        case 5:
             sender.dismiss(animated: true, completion: nil)
-            callSelector(#selector(about), object: self, delay: 0.5)
+            callSelector(#selector(about), object: self, delay: 0.35)
             break
         default:
             break

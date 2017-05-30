@@ -70,28 +70,8 @@
                                             <segue destination="02Z-Eb-9gk" kind="show" id="M8W-lT-p7h"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="88" id="EYO-bj-Wda" customClass="MenuTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="176" width="375" height="88"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EYO-bj-Wda" id="b2T-xp-0QV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f1-KX-RcK">
-                                                    <rect key="frame" x="24" y="31" width="351" height="25"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="18"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="menuItem" destination="5f1-KX-RcK" id="Dsz-3H-xRf"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="88" id="fe2-YX-x1R" customClass="MenuTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="264" width="375" height="88"/>
+                                        <rect key="frame" x="0.0" y="176" width="375" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fe2-YX-x1R" id="muX-lt-Oen">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
@@ -112,7 +92,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="88" id="tZx-cB-Aa1" customClass="MenuTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="352" width="375" height="88"/>
+                                        <rect key="frame" x="0.0" y="264" width="375" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tZx-cB-Aa1" id="Jy4-BO-tUf">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
@@ -132,7 +112,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="88" id="76E-Lh-sh2" customClass="MenuTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="440" width="375" height="88"/>
+                                        <rect key="frame" x="0.0" y="352" width="375" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="76E-Lh-sh2" id="aqh-H9-Ulf">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
@@ -329,7 +309,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Yh-Zs-3jW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2478" y="1737"/>
+            <point key="canvasLocation" x="-1375" y="1725"/>
         </scene>
         <!--VideosVC-->
         <scene sceneID="Tb8-nV-QLj">
@@ -380,7 +360,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AkQ-9t-R5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1766" y="1737"/>
+            <point key="canvasLocation" x="-652" y="1725"/>
         </scene>
         <!--ResourcesVC-->
         <scene sceneID="lXs-Zp-7Bp">
@@ -431,7 +411,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gLH-M9-mYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1052" y="1737"/>
+            <point key="canvasLocation" x="63" y="1725"/>
         </scene>
         <!--Scrolling Nav-->
         <scene sceneID="Heq-xW-6ar">

@@ -77,6 +77,7 @@ class AdvancedToolsVC: UITableViewController, SFSafariViewControllerDelegate {
     }
     
     func dismissController(sender: UIBarButtonItem) {
+        tableView.reloadData()
         dismiss(animated: true, completion: nil)
     }
 }
