@@ -10,7 +10,7 @@ class FileHelper {
     var chapters: [String]
     var videos: [String]
     var videoList: [[String:String]]
-    var advTools: [(String, String)]
+    var advTools: [[String:String]]
     var resources: [(String, String, String)]
     
     init() {
@@ -21,18 +21,14 @@ class FileHelper {
                     "What Happy Coaches Know"]
         videos = []
         videoList = []
-        advTools = [("Assessment", "Your Abundance Audit"),
-                    ("Assessment", "Your CAMPS Audit"),
-                    ("Assessment", "Energy Assessment"),
-                    ("FAST", "Fear Appreciation Spectrum Test"),
-                    ("Worksheet", "Your Committment Audit"),
-                    ("Worksheet", "Making It To The Top")]
+        advTools = []
         resources = [("Online Resources", "What Happy Companies Know", "http://h2cleadership.com"),
                     ("More to Explore", "What Happy Working Mothers Know", "http://h2cleadership.com/mom")]
     }
     
     func load() {
         videoList = readPlist("Video")
+        advTools = readPlist("Tools")
     }
     
     func readPlist(_ pListName: String) -> [[String:String]] {

@@ -46,7 +46,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="menuItem" destination="ERe-oZ-ymm" id="m8i-pY-pZV"/>
-                                            <segue destination="0Rh-th-MMl" kind="show" id="bja-sR-VBm"/>
+                                            <segue destination="0Rh-th-MMl" kind="show" identifier="toolsSegue" id="bja-sR-VBm"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="88" id="YZz-3f-k6L" customClass="MenuTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">

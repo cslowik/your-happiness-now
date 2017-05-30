@@ -12,7 +12,7 @@ protocol MenuDelegate {
     func didSelectItem(_ index: Int, sender: MenuVC)
 }
 
-class MenuVC: UITableViewController {
+class MenuVC: UITableViewController, ToolsDelegate {
     
     var delegate: MenuDelegate?
     
@@ -25,10 +25,21 @@ class MenuVC: UITableViewController {
         delegate?.didSelectItem(indexPath.row, sender: self)
         switch indexPath.row {
         case 0:
-            
             break
         default:
             break
+        }
+    }
+    
+    //MARK:- Tools Delegate
+    func didSelectTool(_ index: Int, sender: AdvancedToolsVC) {
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toolsSegue" {
+            let toolsVC = segue.destination as! AdvancedToolsVC
+            toolsVC.delegate = self
         }
     }
 }

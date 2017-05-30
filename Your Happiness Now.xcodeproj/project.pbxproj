@@ -10,6 +10,15 @@
 		834E5EED1EDDC696008C8F93 /* VideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E5EEC1EDDC696008C8F93 /* VideosVC.swift */; };
 		834E5EF11EDDC725008C8F93 /* ResourcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E5EF01EDDC725008C8F93 /* ResourcesVC.swift */; };
 		834E5EF31EDDCFD5008C8F93 /* Video.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EF21EDDCFD5008C8F93 /* Video.plist */; };
+		834E5EF51EDDE04A008C8F93 /* Tools.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EF41EDDE04A008C8F93 /* Tools.plist */; };
+		834E5EFD1EDDE126008C8F93 /* abundance_audit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EF71EDDE126008C8F93 /* abundance_audit.pdf */; };
+		834E5EFE1EDDE126008C8F93 /* camps_audit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EF81EDDE126008C8F93 /* camps_audit.pdf */; };
+		834E5EFF1EDDE126008C8F93 /* committment_audit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EF91EDDE126008C8F93 /* committment_audit.pdf */; };
+		834E5F001EDDE126008C8F93 /* energy_audit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EFA1EDDE126008C8F93 /* energy_audit.pdf */; };
+		834E5F011EDDE126008C8F93 /* fast_test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EFB1EDDE126008C8F93 /* fast_test.pdf */; };
+		834E5F021EDDE126008C8F93 /* top_worksheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EFC1EDDE126008C8F93 /* top_worksheet.pdf */; };
+		834E5F041EDDE66C008C8F93 /* UIWebView-loadPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E5F031EDDE66C008C8F93 /* UIWebView-loadPDF.swift */; };
+		834E5F061EDDE71D008C8F93 /* PDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E5F051EDDE71D008C8F93 /* PDFVC.swift */; };
 		836CD3861ED5CEA100CC436B /* UITextView-Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3851ED5CEA100CC436B /* UITextView-Configuration.swift */; };
 		836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */; };
 		836CD38A1ED5CEF100CC436B /* UIColor-Swatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */; };
@@ -44,6 +53,15 @@
 		834E5EEC1EDDC696008C8F93 /* VideosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosVC.swift; sourceTree = "<group>"; };
 		834E5EF01EDDC725008C8F93 /* ResourcesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesVC.swift; sourceTree = "<group>"; };
 		834E5EF21EDDCFD5008C8F93 /* Video.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Video.plist; sourceTree = "<group>"; };
+		834E5EF41EDDE04A008C8F93 /* Tools.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Tools.plist; sourceTree = "<group>"; };
+		834E5EF71EDDE126008C8F93 /* abundance_audit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = abundance_audit.pdf; sourceTree = "<group>"; };
+		834E5EF81EDDE126008C8F93 /* camps_audit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = camps_audit.pdf; sourceTree = "<group>"; };
+		834E5EF91EDDE126008C8F93 /* committment_audit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = committment_audit.pdf; sourceTree = "<group>"; };
+		834E5EFA1EDDE126008C8F93 /* energy_audit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = energy_audit.pdf; sourceTree = "<group>"; };
+		834E5EFB1EDDE126008C8F93 /* fast_test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = fast_test.pdf; sourceTree = "<group>"; };
+		834E5EFC1EDDE126008C8F93 /* top_worksheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = top_worksheet.pdf; sourceTree = "<group>"; };
+		834E5F031EDDE66C008C8F93 /* UIWebView-loadPDF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIWebView-loadPDF.swift"; path = "Your Happiness Now/Extensions/UIWebView-loadPDF.swift"; sourceTree = "<group>"; };
+		834E5F051EDDE71D008C8F93 /* PDFVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFVC.swift; sourceTree = "<group>"; };
 		836CD3851ED5CEA100CC436B /* UITextView-Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextView-Configuration.swift"; path = "Your Happiness Now/Extensions/UITextView-Configuration.swift"; sourceTree = "<group>"; };
 		836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont-TextStyles.swift"; path = "Your Happiness Now/Extensions/UIFont-TextStyles.swift"; sourceTree = "<group>"; };
 		836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Swatches.swift"; path = "Your Happiness Now/Extensions/UIColor-Swatches.swift"; sourceTree = "<group>"; };
@@ -86,6 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834E5EF61EDDE126008C8F93 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				834E5EF71EDDE126008C8F93 /* abundance_audit.pdf */,
+				834E5EF81EDDE126008C8F93 /* camps_audit.pdf */,
+				834E5EF91EDDE126008C8F93 /* committment_audit.pdf */,
+				834E5EFA1EDDE126008C8F93 /* energy_audit.pdf */,
+				834E5EFB1EDDE126008C8F93 /* fast_test.pdf */,
+				834E5EFC1EDDE126008C8F93 /* top_worksheet.pdf */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		836CD3841ED5CE7A00CC436B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +124,7 @@
 				836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */,
 				836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */,
 				836CD38B1ED5CF0C00CC436B /* NSObject-callSelector.swift */,
+				834E5F031EDDE66C008C8F93 /* UIWebView-loadPDF.swift */,
 			);
 			name = Extensions;
 			path = ..;
@@ -109,6 +141,7 @@
 				838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */,
 				834E5EF01EDDC725008C8F93 /* ResourcesVC.swift */,
 				834E5EEC1EDDC696008C8F93 /* VideosVC.swift */,
+				834E5F051EDDE71D008C8F93 /* PDFVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				838F997A1ED9F1EB009B5C58 /* Assets.xcassets */,
+				834E5EF61EDDE126008C8F93 /* Tools */,
 				836CD3A81ED5CFE400CC436B /* Fonts */,
 				836CD39A1ED5CFD700CC436B /* Utility */,
 				836CD39E1ED5CFD700CC436B /* Views */,
@@ -176,6 +210,7 @@
 				839A74F11ED5470D00B46DE0 /* Main.storyboard */,
 				839A74F61ED5470D00B46DE0 /* LaunchScreen.storyboard */,
 				834E5EF21EDDCFD5008C8F93 /* Video.plist */,
+				834E5EF41EDDE04A008C8F93 /* Tools.plist */,
 				839A74F91ED5470D00B46DE0 /* Info.plist */,
 			);
 			path = "Your Happiness Now";
@@ -262,9 +297,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				836CD3AE1ED5CFE400CC436B /* Montserrat-Bold.ttf in Resources */,
+				834E5EFF1EDDE126008C8F93 /* committment_audit.pdf in Resources */,
+				834E5F001EDDE126008C8F93 /* energy_audit.pdf in Resources */,
 				834E5EF31EDDCFD5008C8F93 /* Video.plist in Resources */,
 				839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */,
 				836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */,
+				834E5EFD1EDDE126008C8F93 /* abundance_audit.pdf in Resources */,
+				834E5F021EDDE126008C8F93 /* top_worksheet.pdf in Resources */,
+				834E5EFE1EDDE126008C8F93 /* camps_audit.pdf in Resources */,
+				834E5F011EDDE126008C8F93 /* fast_test.pdf in Resources */,
+				834E5EF51EDDE04A008C8F93 /* Tools.plist in Resources */,
 				836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */,
 				836CD3B01ED5CFE400CC436B /* OpenSans-Italic.ttf in Resources */,
 				836CD3AF1ED5CFE400CC436B /* Montserrat-Regular.ttf in Resources */,
@@ -328,10 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834E5F061EDDE71D008C8F93 /* PDFVC.swift in Sources */,
 				836CD3861ED5CEA100CC436B /* UITextView-Configuration.swift in Sources */,
 				836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */,
 				839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */,
 				836CD3A31ED5CFD700CC436B /* FileHelper.swift in Sources */,
+				834E5F041EDDE66C008C8F93 /* UIWebView-loadPDF.swift in Sources */,
 				838F997D1EDB406F009B5C58 /* MenuVC.swift in Sources */,
 				838F997F1EDB4BD7009B5C58 /* AdvancedToolsVC.swift in Sources */,
 				839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */,
