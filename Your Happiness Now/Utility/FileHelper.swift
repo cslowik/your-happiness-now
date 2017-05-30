@@ -11,7 +11,7 @@ class FileHelper {
     var videos: [String]
     var videoList: [[String:String]]
     var advTools: [(String, String)]
-    var resources: [(String, String)]
+    var resources: [(String, String, String)]
     
     init() {
         chapters = ["Welcome to Your Happiness Now",
@@ -27,8 +27,8 @@ class FileHelper {
                     ("FAST", "Fear Appreciation Spectrum Test"),
                     ("Worksheet", "Your Committment Audit"),
                     ("Worksheet", "Making It To The Top")]
-        resources = [("Online Resources", "What Happy Companies Know"),
-                    ("More to Explore", "What Happy Working Mothers Know")]
+        resources = [("Online Resources", "What Happy Companies Know", "http://h2cleadership.com"),
+                    ("More to Explore", "What Happy Working Mothers Know", "http://h2cleadership.com/mom")]
     }
     
     func load() {

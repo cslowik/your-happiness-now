@@ -108,7 +108,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="menuItem" destination="bJk-Eb-tdV" id="x3b-7o-eTp"/>
-                                            <segue destination="5oB-rW-i76" kind="show" id="um3-cg-kjl"/>
+                                            <segue destination="5oB-rW-i76" kind="show" identifier="resourcesSegue" id="um3-cg-kjl"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="88" id="tZx-cB-Aa1" customClass="MenuTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
