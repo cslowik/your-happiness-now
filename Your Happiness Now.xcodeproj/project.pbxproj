@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834E5EED1EDDC696008C8F93 /* VideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E5EEC1EDDC696008C8F93 /* VideosVC.swift */; };
+		834E5EF11EDDC725008C8F93 /* ResourcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E5EF01EDDC725008C8F93 /* ResourcesVC.swift */; };
+		834E5EF31EDDCFD5008C8F93 /* Video.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834E5EF21EDDCFD5008C8F93 /* Video.plist */; };
 		836CD3861ED5CEA100CC436B /* UITextView-Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3851ED5CEA100CC436B /* UITextView-Configuration.swift */; };
 		836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */; };
 		836CD38A1ED5CEF100CC436B /* UIColor-Swatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */; };
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		2968932C0B7C15924D4DE28D /* Pods-Your Happiness Now.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Happiness Now.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now.debug.xcconfig"; sourceTree = "<group>"; };
 		65997841F2E3B84ACBC6F8ED /* Pods-Your Happiness Now.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Happiness Now.release.xcconfig"; path = "Pods/Target Support Files/Pods-Your Happiness Now/Pods-Your Happiness Now.release.xcconfig"; sourceTree = "<group>"; };
+		834E5EEC1EDDC696008C8F93 /* VideosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosVC.swift; sourceTree = "<group>"; };
+		834E5EF01EDDC725008C8F93 /* ResourcesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesVC.swift; sourceTree = "<group>"; };
+		834E5EF21EDDCFD5008C8F93 /* Video.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Video.plist; sourceTree = "<group>"; };
 		836CD3851ED5CEA100CC436B /* UITextView-Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextView-Configuration.swift"; path = "Your Happiness Now/Extensions/UITextView-Configuration.swift"; sourceTree = "<group>"; };
 		836CD3871ED5CECB00CC436B /* UIFont-TextStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont-TextStyles.swift"; path = "Your Happiness Now/Extensions/UIFont-TextStyles.swift"; sourceTree = "<group>"; };
 		836CD3891ED5CEF100CC436B /* UIColor-Swatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Swatches.swift"; path = "Your Happiness Now/Extensions/UIColor-Swatches.swift"; sourceTree = "<group>"; };
@@ -101,6 +107,8 @@
 				838F997C1EDB406F009B5C58 /* MenuVC.swift */,
 				836CD3931ED5CF7C00CC436B /* ScrollingNav.swift */,
 				838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */,
+				834E5EF01EDDC725008C8F93 /* ResourcesVC.swift */,
+				834E5EEC1EDDC696008C8F93 /* VideosVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +175,7 @@
 				839A74EF1ED5470D00B46DE0 /* ViewController.swift */,
 				839A74F11ED5470D00B46DE0 /* Main.storyboard */,
 				839A74F61ED5470D00B46DE0 /* LaunchScreen.storyboard */,
+				834E5EF21EDDCFD5008C8F93 /* Video.plist */,
 				839A74F91ED5470D00B46DE0 /* Info.plist */,
 			);
 			path = "Your Happiness Now";
@@ -253,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				836CD3AE1ED5CFE400CC436B /* Montserrat-Bold.ttf in Resources */,
+				834E5EF31EDDCFD5008C8F93 /* Video.plist in Resources */,
 				839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */,
 				836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */,
 				836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */,
@@ -326,10 +336,12 @@
 				838F997F1EDB4BD7009B5C58 /* AdvancedToolsVC.swift in Sources */,
 				839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */,
 				836CD3A61ED5CFD700CC436B /* ContentsTableViewCell.swift in Sources */,
+				834E5EED1EDDC696008C8F93 /* VideosVC.swift in Sources */,
 				836CD3961ED5CF7C00CC436B /* ChapterVC.swift in Sources */,
 				836CD3991ED5CF7C00CC436B /* ScrollingNav.swift in Sources */,
 				836CD3971ED5CF7C00CC436B /* ContentsVC.swift in Sources */,
 				836CD38C1ED5CF0C00CC436B /* NSObject-callSelector.swift in Sources */,
+				834E5EF11EDDC725008C8F93 /* ResourcesVC.swift in Sources */,
 				836CD3A41ED5CFD700CC436B /* TextStyles.swift in Sources */,
 				836CD3A71ED5CFD700CC436B /* MenuTableViewCell.swift in Sources */,
 				836CD38A1ED5CEF100CC436B /* UIColor-Swatches.swift in Sources */,

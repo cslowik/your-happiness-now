@@ -334,13 +334,13 @@
         <!--VideosVC-->
         <scene sceneID="Tb8-nV-QLj">
             <objects>
-                <tableViewController id="02Z-Eb-9gk" customClass="VideosVC" sceneMemberID="viewController">
+                <tableViewController id="02Z-Eb-9gk" customClass="VideosVC" customModule="Your_Happiness_Now" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" id="VNf-AU-s9V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="advToolCell" rowHeight="88" id="ivh-oI-ckr" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoCell" rowHeight="88" id="ivh-oI-ckr" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ivh-oI-ckr" id="gnd-zg-4gb" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
@@ -385,13 +385,13 @@
         <!--ResourcesVC-->
         <scene sceneID="lXs-Zp-7Bp">
             <objects>
-                <tableViewController id="5oB-rW-i76" customClass="ResourcesVC" sceneMemberID="viewController">
+                <tableViewController id="5oB-rW-i76" customClass="ResourcesVC" customModule="Your_Happiness_Now" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" id="IDZ-kg-j1T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="advToolCell" rowHeight="88" id="lwv-tq-V7e" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="resourceCell" rowHeight="88" id="lwv-tq-V7e" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lwv-tq-V7e" id="xGR-BH-ZWj" customClass="ContentsTableViewCell" customModule="Your_Happiness_Now" customModuleProvider="target">
@@ -431,7 +431,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gLH-M9-mYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-655" y="1737"/>
+            <point key="canvasLocation" x="-1052" y="1737"/>
         </scene>
         <!--Scrolling Nav-->
         <scene sceneID="Heq-xW-6ar">

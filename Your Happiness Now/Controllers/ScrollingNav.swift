@@ -21,7 +21,7 @@ class ScrollingNav: UINavigationController, MenuDelegate, MFMailComposeViewContr
         navigationBar.tintColor = UIColor.loblolly
         navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont.navFont,
                                              NSForegroundColorAttributeName: UIColor.ebonyClay]
-        _ = FileHelper.main
+        FileHelper.main.load()
         SideMenuManager.menuWidth = UIScreen.main.bounds.width - 48
         SideMenuManager.menuEnableSwipeGestures = false
         
