@@ -36,13 +36,10 @@ class ContentsVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "tocCell", for: indexPath) as! ContentsTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "tocCell", for: indexPath) as! ChapterTableViewCell
         
         cell.chapterTitle.text  = chapters[indexPath.row]
         cell.chapterTitle.textColor = UIColor.ebonyClay
-        
-        cell.chapterIndex.textColor = UIColor.ebonyClay
-        cell.chapterIndex.text = "\(indexPath.row + 1)"
         
         return cell
     }

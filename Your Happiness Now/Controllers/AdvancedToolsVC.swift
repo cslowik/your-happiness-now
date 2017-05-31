@@ -66,13 +66,15 @@ class AdvancedToolsVC: UITableViewController, SFSafariViewControllerDelegate {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         delegate?.didSelectTool(indexPath.row, sender: self)
-        
-        let pdfVC = PDFVC(withPDF: items[indexPath.row]["file"]!)
-        
-        let navigationController = UINavigationController(rootViewController: pdfVC)
-        // Add a close button that dismisses the web view controller.
-        pdfVC.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Close", style: .plain, target: self, action: #selector(dismissController(sender:)))
-        
+        loadPDF(indexPath.row)
+    }
+    
+    func loadPDF(_ index: Int) {
+        let aboutURL = URL(string: items[index]["file"]!)!
+        let safariController = SFSafariViewController(url: aboutURL)
+        safariController.delegate = self
+        safariController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Close", style: .plain, target: self, action: #selector(dismissController(sender:)))
+        let navigationController = UINavigationController(rootViewController: safariController)
         self.navigationController?.present(navigationController, animated: true, completion: nil)
     }
     
