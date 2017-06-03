@@ -1,21 +1,24 @@
 PODS:
   - Atributika (3.1.4)
   - Pages (1.0.0)
+  - PMAlertController (2.1.2)
   - SideMenu (2.3.2)
   - SnapKit (3.2.0)
 
 DEPENDENCIES:
   - Atributika
   - Pages
+  - PMAlertController
   - SideMenu
   - SnapKit (~> 3.0)
 
 SPEC CHECKSUMS:
   Atributika: 3508639d03604c956d6b0aa186de964d2c1ff6c1
   Pages: f3718e6f03a5e2787f6b0bff4becb3c7c19bcebc
+  PMAlertController: 0fbcc3d1cee86ee0bd85f693ca85f6388e504ec8
   SideMenu: 3fa07dd05d4bade2b6f9889fb1877e312e1ba319
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: b3b26686989338880a703751b1901d3a8b61774c
+PODFILE CHECKSUM: f1c2324a6fc8abdcd3f03ea28f699d73a9e7734a
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

@@ -10,5 +10,6 @@ target 'Your Happiness Now' do
   pod 'SnapKit', '~> 3.0'
   pod 'Pages'
   pod 'Atributika'
+  pod 'PMAlertController'
 
 end

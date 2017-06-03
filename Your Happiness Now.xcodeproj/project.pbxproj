@@ -35,6 +35,7 @@
 		838F997B1ED9F1EB009B5C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838F997A1ED9F1EB009B5C58 /* Assets.xcassets */; };
 		838F997D1EDB406F009B5C58 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997C1EDB406F009B5C58 /* MenuVC.swift */; };
 		838F997F1EDB4BD7009B5C58 /* AdvancedToolsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */; };
+		839293361EE37FB0002C72CB /* AlertInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839293351EE37FB0002C72CB /* AlertInfo.plist */; };
 		839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */; };
 		839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74EF1ED5470D00B46DE0 /* ViewController.swift */; };
 		839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F11ED5470D00B46DE0 /* Main.storyboard */; };
@@ -73,6 +74,7 @@
 		838F997A1ED9F1EB009B5C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		838F997C1EDB406F009B5C58 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedToolsVC.swift; sourceTree = "<group>"; };
+		839293351EE37FB0002C72CB /* AlertInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlertInfo.plist; sourceTree = "<group>"; };
 		839A74EA1ED5470D00B46DE0 /* Your Happiness Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Happiness Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839A74EF1ED5470D00B46DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				834E5EF21EDDCFD5008C8F93 /* Video.plist */,
 				834E5EF41EDDE04A008C8F93 /* Tools.plist */,
 				839A74F91ED5470D00B46DE0 /* Info.plist */,
+				839293351EE37FB0002C72CB /* AlertInfo.plist */,
 			);
 			path = "Your Happiness Now";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */,
 				836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */,
 				834E5EF51EDDE04A008C8F93 /* Tools.plist in Resources */,
+				839293361EE37FB0002C72CB /* AlertInfo.plist in Resources */,
 				836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */,
 				836CD3B01ED5CFE400CC436B /* OpenSans-Italic.ttf in Resources */,
 				836CD3AF1ED5CFE400CC436B /* Montserrat-Regular.ttf in Resources */,
@@ -331,7 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -90,12 +90,14 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Atributika/Atributika.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PMAlertController/PMAlertController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Pages/Pages.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SideMenu/SideMenu.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SnapKit/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Atributika/Atributika.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PMAlertController/PMAlertController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Pages/Pages.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SideMenu/SideMenu.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SnapKit/SnapKit.framework"
