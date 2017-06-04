@@ -29,6 +29,8 @@ class ScrollingNav: UINavigationController, MenuDelegate, MFMailComposeViewContr
         SideMenuManager.menuAnimationPresentDuration = 0.5
         SideMenuManager.menuAnimationUsingSpringWithDamping = 1
         SideMenuManager.menuAnimationInitialSpringVelocity = 0
+        
+        _ = FileHelper.isThisFirstRun()
     }
     
     //MARK:- Sharing UI

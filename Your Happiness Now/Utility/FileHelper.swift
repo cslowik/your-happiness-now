@@ -13,6 +13,7 @@ class FileHelper {
     var advTools: [[String:String]]
     var resources: [(String, String, String)]
     
+    
     init() {
         chapters = ["Welcome to Your Happiness Now",
                     "What Happy Companies Know",
@@ -52,6 +53,19 @@ class FileHelper {
         let newVC = ChapterVC(index: index)
         return newVC
         
+    }
+    
+    static func isThisFirstRun() -> Bool {
+        let defaults = UserDefaults.standard
+        
+        if let isThisFirstRun = defaults.string(forKey: "isThisFirstRun") {
+            print("App already launched : \(isThisFirstRun)")
+            return true
+        } else {
+            defaults.set(true, forKey: "isThisFirstRun")
+            print("App launched first time")
+            return false
+        }
     }
     
 }

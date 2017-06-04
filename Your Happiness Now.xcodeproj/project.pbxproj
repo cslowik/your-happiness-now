@@ -36,6 +36,7 @@
 		838F997D1EDB406F009B5C58 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997C1EDB406F009B5C58 /* MenuVC.swift */; };
 		838F997F1EDB4BD7009B5C58 /* AdvancedToolsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */; };
 		839293361EE37FB0002C72CB /* AlertInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839293351EE37FB0002C72CB /* AlertInfo.plist */; };
+		8392933A1EE384D5002C72CB /* iNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 839293391EE384D5002C72CB /* iNotify.m */; };
 		839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */; };
 		839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74EF1ED5470D00B46DE0 /* ViewController.swift */; };
 		839A74F31ED5470D00B46DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A74F11ED5470D00B46DE0 /* Main.storyboard */; };
@@ -75,6 +76,9 @@
 		838F997C1EDB406F009B5C58 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedToolsVC.swift; sourceTree = "<group>"; };
 		839293351EE37FB0002C72CB /* AlertInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlertInfo.plist; sourceTree = "<group>"; };
+		839293371EE384D4002C72CB /* Your Happiness Now-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Your Happiness Now-Bridging-Header.h"; sourceTree = "<group>"; };
+		839293381EE384D5002C72CB /* iNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iNotify.h; sourceTree = "<group>"; };
+		839293391EE384D5002C72CB /* iNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iNotify.m; sourceTree = "<group>"; };
 		839A74EA1ED5470D00B46DE0 /* Your Happiness Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Happiness Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839A74EF1ED5470D00B46DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,9 @@
 		836CD39A1ED5CFD700CC436B /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				839293371EE384D4002C72CB /* Your Happiness Now-Bridging-Header.h */,
+				839293381EE384D5002C72CB /* iNotify.h */,
+				839293391EE384D5002C72CB /* iNotify.m */,
 				836CD39C1ED5CFD700CC436B /* FileHelper.swift */,
 				836CD39D1ED5CFD700CC436B /* TextStyles.swift */,
 			);
@@ -249,6 +256,7 @@
 					839A74E91ED5470D00B46DE0 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 75NPGEFXH4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -345,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8392933A1EE384D5002C72CB /* iNotify.m in Sources */,
 				834E5F061EDDE71D008C8F93 /* PDFVC.swift in Sources */,
 				836CD3861ED5CEA100CC436B /* UITextView-Configuration.swift in Sources */,
 				836CD3881ED5CECB00CC436B /* UIFont-TextStyles.swift in Sources */,
@@ -490,6 +499,7 @@
 			baseConfigurationReference = 2968932C0B7C15924D4DE28D /* Pods-Your Happiness Now.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 75NPGEFXH4;
 				INFOPLIST_FILE = "Your Happiness Now/Info.plist";
@@ -498,6 +508,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "577b30e6-7fdf-4262-808d-b66e43313b88";
 				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.sixvoices.happy";
+				SWIFT_OBJC_BRIDGING_HEADER = "Your Happiness Now/Utility/Your Happiness Now-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -508,6 +520,7 @@
 			baseConfigurationReference = 65997841F2E3B84ACBC6F8ED /* Pods-Your Happiness Now.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 75NPGEFXH4;
 				INFOPLIST_FILE = "Your Happiness Now/Info.plist";
@@ -516,6 +529,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "577b30e6-7fdf-4262-808d-b66e43313b88";
 				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.sixvoices.happy";
+				SWIFT_OBJC_BRIDGING_HEADER = "Your Happiness Now/Utility/Your Happiness Now-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
