@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     override init() {
-        //iNotify.sharedInstance().showOnFirstLaunch = false
         iNotify.sharedInstance().notificationsPlistURL = "https://www.dropbox.com/s/8c0wcpup2vt2ssa/AlertInfo.plist?dl=1"
         iNotify.sharedInstance().checkForNotifications()
     }
