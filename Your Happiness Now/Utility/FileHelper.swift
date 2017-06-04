@@ -58,13 +58,13 @@ class FileHelper {
     static func isThisFirstRun() -> Bool {
         let defaults = UserDefaults.standard
         
-        if let isThisFirstRun = defaults.string(forKey: "isThisFirstRun") {
-            print("App already launched : \(isThisFirstRun)")
-            return true
-        } else {
-            defaults.set(true, forKey: "isThisFirstRun")
-            print("App launched first time")
+        if defaults.bool(forKey: "firstRun") {
+            print("App already launched")
             return false
+        } else {
+            defaults.set(true, forKey: "firstRun")
+            print("App launched first time")
+            return true
         }
     }
     

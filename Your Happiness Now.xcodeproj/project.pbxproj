@@ -35,7 +35,6 @@
 		838F997B1ED9F1EB009B5C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838F997A1ED9F1EB009B5C58 /* Assets.xcassets */; };
 		838F997D1EDB406F009B5C58 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997C1EDB406F009B5C58 /* MenuVC.swift */; };
 		838F997F1EDB4BD7009B5C58 /* AdvancedToolsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */; };
-		839293361EE37FB0002C72CB /* AlertInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839293351EE37FB0002C72CB /* AlertInfo.plist */; };
 		8392933A1EE384D5002C72CB /* iNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 839293391EE384D5002C72CB /* iNotify.m */; };
 		839A74EE1ED5470D00B46DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74ED1ED5470D00B46DE0 /* AppDelegate.swift */; };
 		839A74F01ED5470D00B46DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A74EF1ED5470D00B46DE0 /* ViewController.swift */; };
@@ -75,7 +74,6 @@
 		838F997A1ED9F1EB009B5C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		838F997C1EDB406F009B5C58 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		838F997E1EDB4BD7009B5C58 /* AdvancedToolsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedToolsVC.swift; sourceTree = "<group>"; };
-		839293351EE37FB0002C72CB /* AlertInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlertInfo.plist; sourceTree = "<group>"; };
 		839293371EE384D4002C72CB /* Your Happiness Now-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Your Happiness Now-Bridging-Header.h"; sourceTree = "<group>"; };
 		839293381EE384D5002C72CB /* iNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iNotify.h; sourceTree = "<group>"; };
 		839293391EE384D5002C72CB /* iNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iNotify.m; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 				834E5EF21EDDCFD5008C8F93 /* Video.plist */,
 				834E5EF41EDDE04A008C8F93 /* Tools.plist */,
 				839A74F91ED5470D00B46DE0 /* Info.plist */,
-				839293351EE37FB0002C72CB /* AlertInfo.plist */,
 			);
 			path = "Your Happiness Now";
 			sourceTree = "<group>";
@@ -289,7 +286,6 @@
 				839A74F81ED5470D00B46DE0 /* LaunchScreen.storyboard in Resources */,
 				836CD3B11ED5CFE400CC436B /* OpenSans-Regular.ttf in Resources */,
 				834E5EF51EDDE04A008C8F93 /* Tools.plist in Resources */,
-				839293361EE37FB0002C72CB /* AlertInfo.plist in Resources */,
 				836CD3B21ED5CFE400CC436B /* OpenSans-Semibold.ttf in Resources */,
 				836CD3B01ED5CFE400CC436B /* OpenSans-Italic.ttf in Resources */,
 				836CD3AF1ED5CFE400CC436B /* Montserrat-Regular.ttf in Resources */,
@@ -500,13 +496,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Six Voices LLC (75NPGEFXH4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 75NPGEFXH4;
 				INFOPLIST_FILE = "Your Happiness Now/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sixvoices.happy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "577b30e6-7fdf-4262-808d-b66e43313b88";
+				PROVISIONING_PROFILE = "4a672761-9efd-4e4e-806e-7b10408f571c";
 				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.sixvoices.happy";
 				SWIFT_OBJC_BRIDGING_HEADER = "Your Happiness Now/Utility/Your Happiness Now-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -521,13 +518,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Six Voices LLC (75NPGEFXH4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 75NPGEFXH4;
 				INFOPLIST_FILE = "Your Happiness Now/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sixvoices.happy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "577b30e6-7fdf-4262-808d-b66e43313b88";
+				PROVISIONING_PROFILE = "4a672761-9efd-4e4e-806e-7b10408f571c";
 				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.sixvoices.happy";
 				SWIFT_OBJC_BRIDGING_HEADER = "Your Happiness Now/Utility/Your Happiness Now-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
